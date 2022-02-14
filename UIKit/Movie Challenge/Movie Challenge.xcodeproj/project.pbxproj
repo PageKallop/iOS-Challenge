@@ -108,12 +108,8 @@
 				3289DFEE275AF2170058C710 /* AppDelegate.swift */,
 				3284FFD3275B0CEA0039F3EB /* Generated */,
 				3289DFF0275AF2170058C710 /* SceneDelegate.swift */,
-				3289DFF2275AF2170058C710 /* ViewController.swift */,
-				C022611227B74E2300A3BDB7 /* MoviePosterView.swift */,
-				C0600BBB27B774A700C13BF0 /* AllMovieView.swift */,
-				C03A1C5B27B874C9005981F5 /* GenreButtons.swift */,
-				C0600BBD27B784BD00C13BF0 /* AllMoviesCell.swift */,
-				C04A08B427B61ACA0035965F /* CardItem.swift */,
+				C058F0EC27BADB9100B69A8C /* ViewControllers */,
+				C058F0ED27BADBBB00B69A8C /* CellViews */,
 				3284FFDD275B14130039F3EB /* Movies.graphql */,
 				3289E009275AF3430058C710 /* Network.swift */,
 				3289DFF4275AF2170058C710 /* Main.storyboard */,
@@ -131,6 +127,26 @@
 				C3E95E2D1C287BD0125AE98B /* Pods-Movie Challenge.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		C058F0EC27BADB9100B69A8C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C03A1C5B27B874C9005981F5 /* GenreButtons.swift */,
+				C0600BBB27B774A700C13BF0 /* AllMovieView.swift */,
+				C022611227B74E2300A3BDB7 /* MoviePosterView.swift */,
+				3289DFF2275AF2170058C710 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		C058F0ED27BADBBB00B69A8C /* CellViews */ = {
+			isa = PBXGroup;
+			children = (
+				C04A08B427B61ACA0035965F /* CardItem.swift */,
+				C0600BBD27B784BD00C13BF0 /* AllMoviesCell.swift */,
+			);
+			path = CellViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
