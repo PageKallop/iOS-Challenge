@@ -6,4 +6,5 @@ class Network {
   private static let apiEndpoint = "https://podium-fe-challenge-2021.netlify.app/.netlify/functions/graphql"
 
   private(set) lazy var apollo = ApolloClient(url: URL(string: Self.apiEndpoint)!)
+    var movies = [GetMoviesQueryQuery.Data.Movie]()
 }
